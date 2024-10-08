@@ -41,22 +41,7 @@
         
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
-    </head>
-	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
 		<!-- top-area Start -->
 		<header class="top-area">
 			<div class="header-area">
@@ -77,12 +62,14 @@
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                <li class=" smooth-menu active"></li>
+			                <li class="smooth-menu active"></li>
+								<li class="smooth-menu"><a href="#about">about me</a></li>
 			                    <li class=" smooth-menu"><a href="#education">education</a></li>
 			                    <li class="smooth-menu"><a href="#experience">experience</a></li>
-			                    <li class="smooth-menu"><a href="#profiles">skills</a></li>
-			                    <li class="smooth-menu"><a href="#portfolio">Projects</a></li>
-			                    <!-- <li class="smooth-menu"><a href="#clients">clients</a></li> -->
+			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
+			                    <li class="smooth-menu"><a href="#projects">projects</a></li>
+			                    <!-- <li class="smooth-menu"><a href="#presentations">presentations & conferences</a></li>
+								<li class="smooth-menu"><a href="#talks">talks & engagements</a></li> -->
 			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
@@ -102,12 +89,11 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="header-text">
-							<h3>hi <span>,</span> i am <br> Shivani <br> Khandelwal <span>.</span></h3>
+							<h3>hi<span>,</span> i am <br> Shivani <br> Khandelwal <span>.</span></h3>
 							<p class="roles-container">
 								<span class="role">Data Scientist</span>
-								<span class="role">Master's by Research in AI</span>
+								<span class="role">Software Engineer</span>
 								<span class="role">Postgraduate Researcher</span>
-								<span class="role">Freelancer</span>
 							</p>														
 							<a href="assets/download/Shivani_Khandelwal_Resume.pdf" download>download resume</a>
 						</div><!--/.header-text-->
@@ -120,18 +106,22 @@
 
 		<!--about start -->
 		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>about me</h2>
-			</div>
+			<!-- <div class="section-heading text-center">
+				<h1>about me</h1>
+			</div> -->
 			<div class="container">
 				<div class="about-content">
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="single-about-txt">
 								<p>
-									I am a Data Scientist, currently pursuing Master's by Research in Computational Science and Artificial Intelligence at Coventry University, UK 🇬🇧, on a fully-funded British Council Women in STEM Scholarship. <br><br>
-									I am particularly interested in using AI for sustainable energy and currently working on building an optimal controller for smart heating and cooling systems using reinforcement learning to reduce energy consumption in the buildings. <br><br>
-									I love to create and share content on technical topics, personal experiences, and career journeys on social media and enjoy engaging with new people through various networking events.
+									I am Shivani Khandelwal, a Data Scientist currently pursuing a Master's by Research in Computational Science and Artificial Intelligence at Coventry University, UK. I am focused on using AI to solve real-world problems, especially related to climate change.<br><br>
+
+									My research focuses on using Reinforcement Learning as a control method to improve the efficiency of smart heating and cooling systems, reducing energy consumption while maintaining thermal comfort. Additionally, it involves creating a data-driven simulation environment for buildings that is computationally faster and adaptable to various house types and designs.<br><br>
+
+									My journey started with a bachelor's degree in computer science from ITM University, Gwalior, India and a dream of studying master's in AI abroad. Starting from scratch, I am proud to have earned the prestigious fully-funded British Council Women in STEM Scholarship for my master's in the UK, which has helped me advance my knowledge and skills in this field. Throughout my journey, I gained valuable experience working in various industries and collaborating on multiple projects.<br><br>
+
+									I love creating and sharing content on technical topics, personal experiences, and career journeys on social media. I also enjoy engaging with new people through networking events. Feel free to connect with me for any collaborations or discussions on how AI can improve lives and address global challenges.
 								</p>
 								<div class="row">
 									<div class="col-sm-4">
@@ -196,516 +186,453 @@
 		<!--education start -->
 		<section id="education" class="education">
 			<div class="section-heading text-center">
-				<h2>education</h2>
+				<h1>Education</h1>
 			</div>
 			<div class="container">
-				<div class="education-horizontal-timeline">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>Coventry University, UK</h2>
-									<h3>Sep 2023 - Present</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Master's by Research <span>in</span> Computational Science & Artificial Intelligence
-										</h4>
-										<p class="description">
-											Research Focus: Curbing Poverty through Sustainable Energy - Smart Heating and Cooling Systems By building an optimal controller using Reinforcement Learning
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
+				<div class="row">
+					<!-- Coventry University Card -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Full-width Image -->
+							<img src="assets/images/education/coventry_uni.jpg" alt="Coventry University" class="card-image">
+							
+							<!-- Card Body Content -->
+							<div class="card-body">
+								<h2 class="card-title">Coventry University, UK</h2>
+								<h3 class="card-subtitle">Sep 2023 - Present</h3>
+								<h4 class="card-content-title">Master's by Research in Computational Science & AI</h4>
+								<p class="card-content-text">Research Focus: Curbing Poverty through Sustainable Energy – Developing an optimal controller for smart heating and cooling systems using Reinforcement Learning.</p>
+								<h2>Director of Studies:</h2> 
+								<a href="https://www.linkedin.com/in/james-brusey-5543231/">Prof. James Brusey</a>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>ITM University, India</h2>
-									<h3>Aug 2018 - Jun 2022</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Bachelor of Technology <span>in</span> Computer Science [Spec. in DS & ML]
-										</h4>
-										<p class="description">
-											Python, Data Science, Machine Learning, Deep Learning, Data Structures & Algorithms, Engineering Mathematics (I, II, III, IV), Operating System, DBMS, Artificial Intelligence
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
+					</div>
+		
+					<!-- ITM University Card -->
+					<div class="col-sm-6">
+						<div class="card">
+							<!-- Full-width Image -->
+							<img src="assets/images/education/itm_uni.jpg" alt="ITM University" class="card-image">
+							
+							<!-- Card Body Content -->
+							<div class="card-body">
+								<h2 class="card-title">ITM University, India</h2>
+								<h3 class="card-subtitle">Aug 2018 - Jun 2022</h3>
+								<h4 class="card-content-title">Bachelor of Technology in Computer Science [DS & ML]</h4>
+								<p class="card-content-text">Relevant Subjects: Python, Data Science, Machine Learning, Deep Learning, Data Structures & Algorithms, Engineering Mathematics, Operating Systems, DBMS, AI.</p>
 							</div>
-						</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-		</section><!--/.education-->
+		</section>		
 		<!--education end -->
 
-		<!--experience start -->
+		<!-- Experience Section -->
 		<section id="experience" class="experience">
 			<div class="section-heading text-center">
-				<h2>Experience</h2>
+				<h1>Experience</h1>
 			</div>
 			<div class="container">
-				<div class="experience-content">
-					<div class="main-timeline">
-						<ul>
-							<li>
-								<div class="single-timeline-box fix">
-									<div class="row">
-										<div class="col-md-5">
-											<div class="experience-time text-right">
-												<h2>May 2024</h2>
-												<h3>Data Study Group Participant</h3>
-											</div><!--/.experience-time-->
-										</div><!--/.col-->
-										<div class="col-md-offset-1 col-md-5">
-											<div class="timeline">
-												<div class="timeline-content">
-													<h4 class="title">
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														The Alan Turing Institute
-													</h4>
-													<h5>London, UK</h5>
-													<p class="description">
-														Selected for a one-week Data Study Group Challenge. Worked on a problem statement for Kunato Company, developing a Trust Index for News Publishers using clustering and extensive EDA. Collaborated with Master’s, PhD, and PostDoc students to present findings and potential solutions.
-													</p>
-												</div><!--/.timeline-content-->
-											</div><!--/.timeline-->
-										</div><!--/.col-->
-									</div>
-								</div><!--/.single-timeline-box-->
-							</li>
-		
-							<li>
-								<div class="single-timeline-box fix">
-									<div class="row">
-										<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-											<div class="experience-time">
-												<h2>Mar 2024 - Jun 2024</h2>
-												<h3>AKTP Associate</h3>
-											</div><!--/.experience-time-->
-										</div><!--/.col-->
-										<div class="col-md-5">
-											<div class="timeline">
-												<div class="timeline-content text-right">
-													<h4 class="title">
-														Hidalgo Ltd
-													</h4>
-													<h5>Coventry, UK</h5>
-													<p class="description">
-														Led a collaborative project between Coventry University and Hidalgo Ltd to develop predictive models for estimating heat stress. Implemented Kalman Filter algorithms to improve real-time data analysis accuracy and tested various machine learning models for effectiveness and generalisability.
-													</p>
-												</div><!--/.timeline-content-->
-											</div><!--/.timeline-->
-										</div><!--/.col-->
-									</div>
-								</div><!--/.single-timeline-box-->
-							</li>
-		
-							<li>
-								<div class="single-timeline-box fix">
-									<div class="row">
-										<div class="col-md-5">
-											<div class="experience-time text-right">
-												<h2>Oct 2022 - Sep 2023</h2>
-												<h3>Implementation Engineer</h3>
-											</div><!--/.experience-time-->
-										</div><!--/.col-->
-										<div class="col-md-offset-1 col-md-5">
-											<div class="timeline">
-												<div class="timeline-content">
-													<h4 class="title">
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														Verloop.io
-													</h4>
-													<h5>Bangalore, India</h5>
-													<p class="description">
-														Developed and managed Python and Flask-based chatbots to enhance customer engagement. Collaborated with clients to integrate business-specific APIs into chatbots and utilized NLP techniques with Google Cloud Platform to improve performance.
-													</p>
-												</div><!--/.timeline-content-->
-											</div><!--/.timeline-->
-										</div><!--/.col-->
-									</div>
-								</div><!--/.single-timeline-box-->
-							</li>
-		
-							<li>
-								<div class="single-timeline-box fix">
-									<div class="row">
-										<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-											<div class="experience-time">
-												<h2>Feb 2022 - Sep 2022</h2>
-												<h3>Data Scientist</h3>
-											</div><!--/.experience-time-->
-										</div><!--/.col-->
-										<div class="col-md-5">
-											<div class="timeline">
-												<div class="timeline-content text-right">
-													<h4 class="title">
-														ApplicateAI
-													</h4>
-													<h5>Gurgaon, India</h5>
-													<p class="description">
-														Built personalized recommendation systems to enhance sales suggestions using advanced statistical models. Implemented data validation and feature engineering on sales datasets, boosting engagement and sales. Managed version control and automated deployments using Git and Jenkins.
-													</p>
-												</div><!--/.timeline-content-->
-											</div><!--/.timeline-->
-										</div><!--/.col-->
-									</div>
-								</div><!--/.single-timeline-box-->
-							</li>
-		
-							<li>
-								<div class="single-timeline-box fix">
-									<div class="row">
-										<div class="col-md-5">
-											<div class="experience-time text-right">
-												<h2>Aug 2021 - Oct 2021</h2>
-												<h3>Deep Learning Intern</h3>
-											</div><!--/.experience-time-->
-										</div><!--/.col-->
-										<div class="col-md-offset-1 col-md-5">
-											<div class="timeline">
-												<div class="timeline-content">
-													<h4 class="title">
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														SynergyLabs Technology Pvt. Ltd
-													</h4>
-													<h5>Gurgaon, India</h5>
-													<p class="description">
-														Developed a model for Abandoned Object Detection using OpenCV, achieving 98% accuracy in Smoke and Fog Classification with a synthetic image dataset using MobileNet. Also involved in data scraping, dataset creation, and data annotation.
-													</p>
-												</div><!--/.timeline-content-->
-											</div><!--/.timeline-->
-										</div><!--/.col-->
-									</div>
-								</div><!--/.single-timeline-box-->
-							</li>
-						</ul>
-					</div><!--.main-timeline-->
-				</div><!--.experience-content-->
+				<div class="row">
+					<!-- Experience Card 1: The Alan Turing Institute -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/ATI.png" alt="ATI" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">Data Study Group Participant</h2>
+								<h3 class="card-subtitle">The Alan Turing Institute</h3>
+								<h4 class="card-date">May 2024</h4>
+								<h5 class="card-location">London, UK</h5>
+								<ul class="card-description">
+									<li>Selected for a one-week Data Study Group Challenge.</li>
+									<li>Worked on a problem statement for Kunato Company, developing a Trust Index for News Publishers using clustering and extensive EDA.</li>
+									<li>Collaborated with Master’s, PhD, and PostDoc students to present findings and potential solutions.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 2: Hidalgo Ltd -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/Hidalgo.png" alt="Hidalgo" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">KTP Associate</h2>
+								<h3 class="card-subtitle">Coventry University & Hidalgo Ltd</h3>
+								<h4 class="card-date">Mar 2024 - Jun 2024</h4>
+								<h5 class="card-location">Coventry, UK</h5>
+								<ul class="card-description">
+									<li>Led a collaborative project between Coventry University and Hidalgo Ltd to develop predictive models for estimating heat stress.</li>
+									<li>Implemented Kalman Filter algorithms to improve real-time data analysis accuracy.</li>
+									<li>Tested various machine learning models for effectiveness and generalizability.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 3: Verloop.io -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<div class="card-body">
+								<img src="assets/images/experience/Verloop.png" alt="Verloop" class="card-image">
+								<h2 class="card-title">Implementation Engineer</h2>
+								<h3 class="card-subtitle">Verloop.io</h3>
+								<h4 class="card-date">Oct 2022 - Sep 2023</h4>
+								<h5 class="card-location">Bangalore, India</h5>
+								<ul class="card-description">
+									<li>Developed and managed Python and Flask-based chatbots to enhance customer engagement.</li>
+									<li>Collaborated with clients to integrate business-specific APIs into chatbots.</li>
+									<li>Utilized NLP techniques with Google Cloud Platform to improve performance.</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 4: ApplicateAI -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/ApplicateAI.png" alt="ApplicateAI" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">Data Scientist</h2>
+								<h3 class="card-subtitle">SalesCode.AI (Previously knows as ApplicateAI)</h3>
+								<h4 class="card-date">Feb 2022 - Sep 2022</h4>
+								<h5 class="card-location">Gurgaon, India</h5>
+								<ul class="card-description">
+									<li>Built personalized recommendation systems to enhance sales suggestions using advanced statistical models.</li>
+									<li>Implemented data validation and feature engineering on sales datasets, boosting engagement and sales.</li>
+									<li>Managed version control and automated deployments using Git and Jenkins.</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 5: SynergyLabs Technology Pvt. Ltd -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/SynergyLabs.png" alt="SynergyLabs" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">Deep Learning Intern</h2>
+								<h3 class="card-subtitle">SynergyLabs Technology Pvt. Ltd</h3>
+								<h4 class="card-date">Aug 2021 - Oct 2021</h4>
+								<h5 class="card-location">Gurgaon, India</h5>
+								<ul class="card-description">
+									<li>Developed a model for Abandoned Object Detection using OpenCV.</li>
+									<li>Achieved 98% accuracy in Smoke and Fog Classification with a synthetic image dataset using MobileNet.</li>
+									<li>Involved in data scraping, dataset creation, and data annotation.</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 6: Fiverr -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/Freelance.png" alt="Freelance" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">Freelancer</h2>
+								<h3 class="card-subtitle">Fiverr</h3>
+								<h4 class="card-date">Feb 2021 - Mar 2022</h4>
+								<h5 class="card-location">Remote</h5>
+								<ul class="card-description">
+									<li>Contributed to various projects in Python, Data Science, and Machine Learning.</li>
+									<li>Assisting students and professionals seeking a transition to data science and machine learning by clearing their data science and machine learning doubts and concepts. Helping them in building their projects.</li>
+									<li>Profile & Reviews <a href="https://www.fiverr.com/isp_solutions">A</a> <a href="https://techshivanik.setmore.com/">B</a>.</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 7: Innomatics -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/Innomatics.png" alt="Innomatics" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">Data Science Intern</h2>
+								<h3 class="card-subtitle">Innomatics Research labs</h3>
+								<h4 class="card-date">Apr 2021 - Jun 2021</h4>
+								<h5 class="card-location">Remote</h5>
+								<ul class="card-description">
+									<li>Developed a music recommendation system utilizing machine learning techniques on the Million Song Dataset.</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+
+					<!-- Experience Card 8: Proxmaq -->
+					<div class="col-sm-6">
+						<div class="experience-card">
+							<img src="assets/images/experience/ProxMaq.png" alt="ProxMaq" class="card-image">
+							<div class="card-body">
+								<h2 class="card-title">Open-Source Developer</h2>
+								<h3 class="card-subtitle">ProxMaq</h3>
+								<h4 class="card-date">Nov 2020 - May 2021</h4>
+								<h5 class="card-location">Remote</h5>
+								<ul class="card-description">
+									<li>Developed a Currency Detection system utilizing Deep Learning techniques for vision-impaired people and implemented image-to-text conversion algorithms to integrate with the system.</li>
+								</ul>						
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</section><!--/.experience-->		
+		</section>
 		<!--experience end -->
 
-		<!--profiles start -->
-		<section id="profiles" class="profiles">
-			<div class="profiles-details">
-				<div class="section-heading text-center">
-					<h2>Skills</h2>
+		<!--skills start -->
+		<section id="skills" class="skills">
+			<div class="section-heading text-center">
+				<h1>Skills</h1>
+			</div>
+			<div class="container">
+				<!-- Programming Languages -->
+				<div class="skill-category">
+					<h3>Programming Languages</h3>
+					<p>Python, SQL, Java</p>
 				</div>
-				<div class="container">
-					<div class="profiles-content">
-						<div class="row">
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/python.png" alt="Python"></a>
-										<div class="profile-icon-name">Python</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/python.png" alt="Python"></a>
-											<div class="profile-icon-name">Python</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/data.png" alt="Data Science"></a>
-										<div class="profile-icon-name">Data Science</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/data.png" alt="Data Science"></a>
-											<div class="profile-icon-name">Data Science</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/artificial-intelligence.png" alt="Machine Learning"></a>
-										<div class="profile-icon-name">Machine Learning</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/artificial-intelligence.png" alt="Machine Learning"></a>
-											<div class="profile-icon-name">Machine Learning</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/deep-learning.png" alt="Deep Learning"></a>
-										<div class="profile-icon-name">Deep Learning</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/deep-learning.png" alt="Deep Learning"></a>
-											<div class="profile-icon-name">Deep Learning</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="profile-border"></div>
-						<div class="row">
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/brain.png" alt="Computer Vision"></a>
-										<div class="profile-icon-name">Computer Vision</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/brain.png" alt="Computer Vision"></a>
-											<div class="profile-icon-name">Computer Vision</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/natural-language-processing.png" alt="NLP"></a>
-										<div class="profile-icon-name">NLP</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/natural-language-processing.png" alt="NLP"></a>
-											<div class="profile-icon-name">NLP</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"></a>
-										<div class="profile-icon-name">GitHub</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"></a>
-											<div class="profile-icon-name">GitHub</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/api.png" alt="Flask"></a>
-										<div class="profile-icon-name">Flask</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/api.png" alt="Flask"></a>
-											<div class="profile-icon-name">Flask</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="profile-border"></div>
-						<div class="row">
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/bar-chart.png" alt="Scikit-learn"></a>
-										<div class="profile-icon-name">Scikit-learn</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/bar-chart.png" alt="Scikit-learn"></a>
-											<div class="profile-icon-name">Scikit-learn</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/graph.png" alt="Seaborn"></a>
-										<div class="profile-icon-name">Seaborn</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/graph.png" alt="Seaborn"></a>
-											<div class="profile-icon-name">Seaborn</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/time-machine.png" alt="Time-series"></a>
-										<div class="profile-icon-name">Time-series</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/time-machine.png" alt="Time-series"></a>
-											<div class="profile-icon-name">Time-series</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/TensorFlow_logo.svg" alt="TensorFlow"></a>
-										<div class="profile-icon-name">TensorFlow</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/TensorFlow_logo.svg" alt="TensorFlow"></a>
-											<div class="profile-icon-name">TensorFlow</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+		
+				<!-- Data Science and Machine Learning -->
+				<div class="skill-category">
+					<h3>Data Science and Machine Learning</h3>
+					<p><strong>Libraries:</strong> Numpy, Pandas, Matplotlib, Seaborn, Plotly, Scikit-learn, NLTK</p>
+					<p><strong>Techniques & Algorithms:</strong> Statistics, Probability, Regression, Classification, Clustering, Reinforcement Learning, Time-Series Analysis</p>
+				</div>
+		
+				<!-- Deep Learning -->
+				<div class="skill-category">
+					<h3>Deep Learning</h3>
+					<p>ANN, CNN, RNN, LSTM, GAN, TensorFlow, PyTorch</p>
+				</div>
+		
+				<!-- Development and Tools -->
+				<div class="skill-category">
+					<h3>Development and Tools</h3>
+					<p><strong>Web and App Development:</strong> HTML, CSS, JavaScript, Flask, Django, Android Studio</p>
+					<p><strong>Databases:</strong> MySQL, MongoDB, NotionDB</p>
+					<p><strong>Web Scraping and Automation:</strong> Selenium, BeautifulSoup, Requests</p>
+					<p><strong>Version Control:</strong> Git, GitHub</p>
+					<p><strong>Cloud Computing:</strong> AWS, Google Cloud</p>
+					<p><strong>Others:</strong> Docker, Jenkins, Weights & Biases</p>
+				</div>
+		
+				<!-- Other Technologies -->
+				<div class="skill-category">
+					<h3>Other Technologies</h3>
+					<p>LLMs, Computer Vision, NLP, Data Structures & Algorithms, Latex</p>
 				</div>
 			</div>
+		</section>
+		<!--skills end -->
 
-		</section><!--/.profiles-->
-		<!--profiles end -->
-
-		<!--portfolio start -->
-		<!-- <section id="portfolio" class="portfolio">
-			<div class="portfolio-details">
+		<!--projects start -->
+		<section id="projects" class="projects">
+			<div class="projects-details">
 				<div class="section-heading text-center">
-					<h2>portfolio</h2>
+					<h1>Projects</h1>
 				</div>
 				<div class="container">
-					<div class="portfolio-content">
+					<div class="projects-content">
 						<div class="isotope">
 							<div class="row">
-
+								
+								<!-- Project 1 -->
 								<div class="col-sm-4">
 									<div class="item">
-										<img src="assets/images/portfolio/p1.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="#">ui/ux design</a>
+										<img src="assets/images/projects/project1.png" alt="Project 1 Image"/>
+										<div class="project-info">
+											<a href="https://docs.google.com/presentation/d/1-qZjkU32NOArtri1jarzwHdUeReZuHfERZ5MBkxARpU/edit?usp=sharing" target="_blank" class="project-title">
+												Heating and Cooling Control System Using Reinforcement Learning
+											</a>
+											<p class="project-description">
+												This project research aims to build an effective control system for smart heating and cooling systems using Reinforcement Learning and data-driven simulation environments of the buildings to reduce energy consumption and cost.
+											</p>
 										</div>
 									</div>
+								</div>
+		
+								<!-- Project 2 -->
+								<div class="col-sm-4">
 									<div class="item">
-										<img src="assets/images/portfolio/p2.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="#">ui/ux design</a>
+										<img src="assets/images/projects/project2.png" alt="Project 2 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/Music-Recommendation-System" target="_blank" class="project-title">
+												Music Recommendation System
+											</a>
+											<p class="project-description">
+												The system predicts user preferences and recommends songs based on various machine-learning techniques, including collaborative filtering, content-based filtering, and matrix factorization.
+											</p>
+										</div>
+									</div>
+								</div>
+		
+								<!-- Project 3 -->
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/projects/project3.png" alt="Project 3 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/Face-Recognition-Projects" target="_blank" class="project-title">
+												Face Recognition
+											</a>
+											<p class="project-description">
+												Face Recognition, and various operations such as age, gender classification, face blurring, makeup and facial emotion detection on images and videos.
+											</p>
 										</div>
 									</div>
 								</div>
 
+								<!-- Project 4 -->
 								<div class="col-sm-4">
 									<div class="item">
-										<img src="assets/images/portfolio/p3.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="#">web design</a>
+										<img src="assets/images/projects/project4.png" alt="Project 4 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/Gesture_Auth_Encode_AI" target="_blank" class="project-title">
+												Phone Lifting Gesture Recognition
+											</a>
+											<p class="project-description">
+												Developed a prototype for a human-device interaction project, creating an AI-based security layer for mobile devices using gyroscope and accelerometer to recognize unique user handling patterns and trigger security measures for unusual scenarios.
+											</p>
 										</div>
 									</div>
 								</div>
 
+								<!-- Project 5 -->
 								<div class="col-sm-4">
 									<div class="item">
-										<img src="assets/images/portfolio/p4.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="#">web development</a>
-										</div>
-									</div>
-									<div class="item">
-										<img src="assets/images/portfolio/p5.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="#">web development</a>
+										<img src="assets/images/projects/project5.png" alt="Project 5 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/Intelligent-Door-Unlocking-System" target="_blank" class="project-title">
+												Intelligent Door Unlocking System
+											</a>
+											<p class="project-description">
+												The Intelligent Door Unlocking System is a hardware-based project developed during a 24-hour hackathon. It integrates Distance Sensing, RFID (Radio Frequency Identification), and IR (Infrared) Remote features, along with an emergency unlock functionality for added safety.
+											</p>
 										</div>
 									</div>
 								</div>
 
+								<!-- Project 6 -->
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/projects/project6.png" alt="Project 6 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/Image-Captioning" target="_blank" class="project-title">
+												Image Captioning
+											</a>
+											<p class="project-description">
+												Designed an image caption generator using an encoder-decoder architecture (CNN and RNN).
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Project 7 -->
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/projects/project7.png" alt="Project 7 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/EDA" target="_blank" class="project-title">
+												Exploratory Data Analysis
+											</a>
+											<p class="project-description">
+												Exploratory data analysis on the PUBG dataset with hypothesis testing.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Project 8 -->
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/projects/project8.png" alt="Project 8 Image"/>
+										<div class="project-info">
+											<a href="https://github.com/shivani-2001/Video-Summarization" target="_blank" class="project-title">
+												Video Summarization
+											</a>
+											<p class="project-description">
+												Created a system to summarize videos based on human activity, utilizing a Deep Learning model and OpenCV.
+											</p>
+										</div>
+									</div>
+								</div>
+		
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section> -->
-		<!--portfolio end -->
+		</section>		
+		<!--projects end -->
 
-		<!--clients start -->
-		<!-- <section id="clients" class="clients">
+		<!--presentations-conferences start -->
+		<section id="presentations-conferences" class="presentations-conferences">
 			<div class="section-heading text-center">
-				<h2>clients</h2>
+				<h1>Presentations & Conferences</h1>
 			</div>
-			<div class="clients-area">
-				<div class="container">
-					<div class="owl-carousel owl-theme" id="client">
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c1.png" alt="brand-image" />
-							</a>
+			<div class="container">
+				<div class="presentations-conferences-content">
+					<div id="presentationCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators for slides (optional) -->
+						<ol class="carousel-indicators">
+							<li data-target="#presentationCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#presentationCarousel" data-slide-to="1"></li>
+							<li data-target="#presentationCarousel" data-slide-to="2"></li>
+						</ol>
+		
+						<!-- Slides -->
+						<div class="carousel-inner">
+							<!-- Presentation 1 -->
+							<div class="carousel-item active">
+								<img src="assets/images/presentations/presentation1.jpg" class="d-block w-100" alt="Presentation 1 Image">
+								<div class="carousel-caption">
+									<h3>AI for Sustainable Energy</h3>
+									<p class="presentation-description">
+										Delivered a talk on AI's role in optimizing energy usage. <a href="https://link-to-presentation.com" target="_blank">Learn more</a>
+									</p>
+								</div>
+							</div>
+		
+							<!-- Presentation 2 -->
+							<div class="carousel-item">
+								<img src="assets/images/presentations/presentation2.jpg" class="d-block w-100" alt="Presentation 2 Image">
+								<div class="carousel-caption">
+									<h3>Smart Heating Systems Using Reinforcement Learning</h3>
+									<p class="presentation-description">
+										Presented at Smart Energy Conference 2023. <a href="https://link-to-details.com" target="_blank">Learn more</a>
+									</p>
+								</div>
+							</div>
+		
+							<!-- Presentation 3 -->
+							<div class="carousel-item">
+								<img src="assets/images/presentations/presentation3.jpg" class="d-block w-100" alt="Presentation 3 Image">
+								<div class="carousel-caption">
+									<h3>Women in STEM Summit 2023</h3>
+									<p class="presentation-description">
+										Participated in keynotes and panels. <a href="https://link-to-conference.com" target="_blank">Learn more</a>
+									</p>
+								</div>
+							</div>
 						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c2.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c3.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c4.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c5.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c6.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/clients/c7.png" alt="brand-image" />
-							</a>
-						</div>
+		
+						<!-- Controls -->
+						<a class="carousel-control-prev" href="#presentationCarousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#presentationCarousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
 				</div>
 			</div>
-
-		</section> -->
-
 		</section>
-		<!--clients end -->
+		<!--presentations-conferences end -->		
 
 		<!--contact start -->
 		<section id="contact" class="contact">
 			<div class="section-heading text-center">
-				<h2>contact me</h2>
+				<h1>contact me</h1>
 			</div>
 			<div class="container">
 				<div class="contact-content">
@@ -754,10 +681,6 @@
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-adress">
-									<div class="contact-add-head">
-										<h3>Shivani Khandelwal</h3>
-										<p>Data Scientist</p>
-									</div>
 									<div class="contact-add-info">
 										<div class="single-contact-add-info">
 											<h3>phone</h3>
@@ -769,19 +692,19 @@
 										</div>
 										<div class="single-contact-add-info">
 											<h3>Connect with me</h3>
-											<a href="https://linktr.ee/shivanikhandelwal">Linktree</a>
 										</div>
 									</div>
 								</div><!--/.contact-adress-->
-								<!-- <div class="hm-foot-icon">
+								<div class="hm-foot-icon">
 									<ul>
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/shivanikhandelwal2001/"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://www.youtube.com/@techshivanik?sub_confirmation=1"><i class="fa fa-youtube"></i></a></li>
+										<li><a href="https://www.instagram.com/techshivanik/"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="https://github.com/shivani-2001"><i class="fa fa-github"></i></a></li>
+										<li><a href="https://techshivanik.setmore.com/shivanikhandelwal"><i class="fa fa-video-camera"></i></a></li>
+										<li><a href="https://linktr.ee/shivanikhandelwal"><i class="fa fa-link"></i></a></li>
 									</ul>
-								</div> -->
+								</div>
 							</div><!--/.single-contact-box-->
 						</div><!--/.col-->
 					</div><!--/.row-->
